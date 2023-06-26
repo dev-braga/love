@@ -4,8 +4,8 @@ var btn = document.querySelector('.btn-nao')
 function desvia(){
 
    btn.style.position = 'absolute'
-   btn.style.left = gerarPosicao( 10, 90)
-   btn.style.bottom = gerarPosicao( 10, 90)
+   btn.style.left = gerarPosicao( 10, 80)
+   btn.style.bottom = gerarPosicao( 10, 80)
 }
 
 function sim(){
