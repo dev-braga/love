@@ -13,10 +13,3 @@ function sim(){
 function gerarPosicao( min, max){
     return (Math.random() * (max - min) + min) + '%'
 }
-
-var btn = document.querySelector('.btn')
-
-btn.addEventListener('touchstart', function(event){
-    event.preventDefault();
-    desvia(this)
-})
